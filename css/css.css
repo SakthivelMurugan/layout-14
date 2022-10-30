@@ -1,0 +1,336 @@
+.one
+{
+	display:flex;
+	margin:160px;
+	border:2px solid black;
+	flex-direction:column;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.one .header
+{
+	display:flex;
+	flex-direction:row;
+	background-color:gray;
+}
+.one .header .b1
+{
+	height:20px;
+	width:50px;
+	background-color:blue;
+	margin:20px;
+}
+.one .header .b2
+{
+	height:20px;
+	width:50px;
+	background-color:blue;
+	margin:20px;
+	margin-left:600px;
+}
+.one .header .b
+{
+	height:20px;
+	width:50px;
+	background-color:blue;
+	margin:20px;
+}
+.one .split
+{
+	display:flex;
+	flex-direction:column;
+}
+.one .split .split1
+{
+	display:flex;
+	flex-direction:column;
+	background-color:gray;
+}
+.one .split .split1 .dark
+{
+	height:60px;
+	width:300px;
+	background-color:white;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split1 .text
+{
+	height:50px;
+	width:250px;
+	background-color:pink;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split1 .content1
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.one .split .split1 .content1 .button
+{
+	height:20px;
+	width:50px;
+	background-color:blue;
+	margin:10px;
+}
+.one .split .two
+{
+	display:flex;
+	flex-direction:column;
+	background-color:yellow;
+}
+.one .split .two .two1
+{
+	display:flex;
+	flex-direction:column;
+}
+.one .split .two .two1 .dark
+{
+	height:20px;
+	width:100px;
+	background-color:black;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .two .two1 .text
+{
+	height:30px;
+	width:150px;
+	background-color:gray;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .two .two2
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.one .split .two .two2 .box
+{
+	height:300px;
+	width:250px;
+	background-color:gray;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+.one .split .split2 .split21
+{
+	display:flex;
+	flex-direction:column;	
+}
+.one .split .split2 .split21 .box
+{
+	height:40px;
+	width:50px;
+	background-color:blue;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split21 .dark
+{
+	height:20px;
+	width:100px;
+	background-color:black;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split21 .text
+{
+	height:30px;
+	width:150px;
+	background-color:gray;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split22
+{
+	display:flex;
+	flex-direction:column;
+}
+.one .split .split2 .split22 .box
+{
+	height:50px;
+	width:50px;
+	background-color:blue;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split22 .dark
+{
+	height:20px;
+	width:100px;
+	background-color:black;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split22 .text
+{
+	height:30px;
+	width:150px;
+	background-color:gray;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split23
+{
+	display:flex;
+	flex-direction:column;
+}
+.one .split .split2 .split23 .box
+{
+	height:40px;
+	width:50px;
+	background-color:blue;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split23 .dark
+{
+	height:20px;
+	width:100px;
+	background-color:black;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split2 .split23 .text
+{
+	height:30px;
+	width:150px;
+	background-color:gray;
+	margin:5px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split3
+{
+	display:flex;
+	flex-direction:column;
+}
+.one .split .split3 .dark
+{
+	height:60px;
+	width:300px;
+	background-color:brown;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split3 .text
+{
+	height:50px;
+	width:250px;
+	background-color:pink;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split3 .box
+{
+	height:100px;
+	width:400px;
+	background-color:gray;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split4
+{
+	display:flex;
+	flex-direction:column;
+}
+.one .split .split4 .logo
+{
+	height:40px;
+	width:60px;
+	background-color:blue;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split4 .dark
+{
+	height:60px;
+	width:300px;
+	background-color:brown;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split4 .text
+{
+	height:50px;
+	width:250px;
+	background-color:pink;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split4 .tbox
+{
+	height:50px;
+	width:400px;
+	border:1px solid gray;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split4 .box
+{
+	
+	height:100px;
+	width:400px;
+	border:1px solid gray;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .split .split4 .button
+{
+	height:50px;
+	width:400px;
+	background-color:blue;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.one .footer
+{
+	display:flex;
+	background-color:gray;
+	justify-content:center;
+}
+.one .footer .text
+{
+	height:20px;
+	width:70px;
+	background-color:white;
+}
